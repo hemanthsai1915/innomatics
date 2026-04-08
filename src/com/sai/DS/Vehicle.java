@@ -1,5 +1,7 @@
 package com.sai.DS;
 
-public interface Vehicle {
-public void details();
+import java.io.Serializable;
+
+public interface Vehicle extends Serializable {
+    void details();
 }
